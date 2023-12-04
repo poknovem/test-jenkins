@@ -1,0 +1,9 @@
+.DS_Store
+/.idea/
+/jenkins_home/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
