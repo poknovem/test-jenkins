@@ -4,7 +4,7 @@ pipeline {
     environment {
         NAME = 'Nattapol'
         LASTNAME = 'Tassaneeyakul'
-        secret = credential('SECRET_TEXT')
+        secret = credentials('SECRET_TEXT')
     }
 
     stages {
