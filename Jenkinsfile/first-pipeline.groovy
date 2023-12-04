@@ -1,10 +1,15 @@
 pipeline {
     agent any
 
+    environment {
+        NAME = 'Nattapol'
+        LASTNAME = 'Tassaneeyakul'
+    }
+
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                sh 'echo $NAME $LASTNAME'
             }
         }
         stage('Test') {
